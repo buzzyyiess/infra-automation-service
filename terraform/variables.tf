@@ -9,12 +9,12 @@ variable "cluster_name" {
 }
 
 variable "vpc_id" {
-  type = string
+  type    = string
   default = ""
 }
 
 variable "subnet_ids" {
-  type = list(string)
+  type    = list(string)
   default = []
 }
 
