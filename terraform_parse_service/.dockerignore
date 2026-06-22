@@ -1,0 +1,5 @@
+.terraform/
+.venv/
+__pycache__/
+*.tf
+.git/

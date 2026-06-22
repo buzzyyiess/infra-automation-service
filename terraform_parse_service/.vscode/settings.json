@@ -1,0 +1,4 @@
+{
+    "python.defaultInterpreterPath": "./terraform_parse_service/.venv/bin/python",
+    "python.analysis.extraPaths": ["./terraform_parse_service/.venv/lib/python3.11/site-packages"]
+}
