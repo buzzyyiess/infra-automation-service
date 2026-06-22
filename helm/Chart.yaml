@@ -1,6 +1,5 @@
 apiVersion: v2
 name: tripla-apps
-description: Multi-service chart (frontend + backend) with intentional issues
-type: application
+description: Multi-service chart (frontend + backend) 
 version: 0.1.0
 appVersion: "0.1.0"
