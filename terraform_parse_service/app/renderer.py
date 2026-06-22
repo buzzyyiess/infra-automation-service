@@ -5,6 +5,7 @@ from app.schema import BucketProperties
 # Calculate explicit blueprint asset template directory pathway
 TEMPLATE_DIR = Path(__file__).parent / "templates"
 
+# Initialize template engine with strict undefined variable parameters
 jinja_env = Environment(
     loader=FileSystemLoader(TEMPLATE_DIR),
     undefined=StrictUndefined
