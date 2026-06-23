@@ -107,7 +107,7 @@ Package and deploy the application using Helm onto a local Kubernetes cluster.
 
 ```bash
 cd terraform_parse_service
-docker build -t terraform-parse-service .
+docker build -t terraform-parse-service:1.0 .
 cd ..
 ```
 
