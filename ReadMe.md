@@ -179,6 +179,7 @@ Expected Result
 * Generated Terraform manifest
 * Manifest written to disk
 * JSON preview returned
+* Invalid requests return **HTTP 422 Unprocessable Entity** with structured validation errors.
 
 
 ---
