@@ -6,7 +6,8 @@ During the review of the Terraform configuration, the following issues were iden
 
 * The Amazon EKS module version was outdated and did not support the `node_groups` argument, resulting in validation errors.
 * The configuration used the deprecated `acl` argument within the S3 bucket resource.
-* The EKS module generated a deprecation warning for the Kubernetes ConfigMap resource. This warning originates from the upstream module rather than the project code.
+* 
+
 
 ---
 
@@ -17,7 +18,7 @@ The following improvements were implemented:
 * Modularized the Terraform configuration to improve reusability and simplify management across multiple environments (e.g., development, staging, and production).
 * Upgraded the Amazon EKS Terraform module to a compatible version and updated the configuration to align with the latest module interface.
 * Resolved the validation error related to the unsupported node_groups argument.
-* Reviewed the S3 deprecation warning and identified the recommended migration to the `aws_s3_bucket_acl` resource for future implementation.
+* Reviewed the S3 deprecation error
 
 ---
 
