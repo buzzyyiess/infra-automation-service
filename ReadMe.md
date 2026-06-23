@@ -120,7 +120,7 @@ kind create cluster --name tripla
 ## Load Docker Image
 
 ```bash
-kind load docker-image terraform-parse-service --name tripla
+kind load docker-image terraform-parse-service:1.0 --name tripla
 ```
 
 ## Deploy Helm Chart
